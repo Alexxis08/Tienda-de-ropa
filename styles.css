@@ -42,7 +42,7 @@ body {
 .btn-agregar:hover {
   transform: rotateX(360deg);
   transition: 1s;
-  scale: 1.2;
+  scale: 1.1;
   background-color: rgb(224, 203, 203);
   color: rgb(2, 104, 236);
 }
