@@ -1,0 +1,48 @@
+body {
+  background-color: bisque;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.content {
+  border: 3px solid blueviolet;
+  display: flex;
+  flex-wrap: wrap; /* permite que bajen a otra fila */
+  gap: 3px; /* espacio entre tarjetas */
+  justify-content: center; /* opcional */
+}
+
+.image-ropa {
+  width: 100px;
+}
+
+.ropa {
+  border: 2px solid #a87171;
+  padding: 15px;
+  width: 250px; /* IMPORTANTE */
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+  /* background-color: aquamarine;
+  width: 300px;
+  height: 450px;
+  border: 2px solid black;
+  margin: 20px; */
+}
+
+.btn-agregar {
+  padding: 15px;
+  background-color: rgb(2, 104, 236);
+  color: white;
+  margin: auto;
+}
+
+.btn-agregar:hover {
+  transform: rotateX(360deg);
+  transition: 1s;
+  scale: 1.2;
+  background-color: rgb(224, 203, 203);
+  color: rgb(2, 104, 236);
+}
