@@ -14,11 +14,10 @@
 
 <body>
   <div class="layout">
-    <header>Encabezado
+    <header>
 
     <h1><br>Tienda de ropa: <br></h1>
 
-    <h4>Listado de ropa.....</h4>
     </header>
 
     <main>
