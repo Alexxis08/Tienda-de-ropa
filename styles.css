@@ -10,8 +10,8 @@ body {
   border: 3px solid blueviolet;
   display: flex;
   flex-wrap: wrap; /* permite que bajen a otra fila */
-  gap: 3px; /* espacio entre tarjetas */
-  justify-content: center; /* opcional */
+  gap: 25px; /* espacio entre tarjetas */
+  /* justify-content: center; */
 }
 
 .image-ropa {
@@ -20,7 +20,7 @@ body {
 
 .ropa {
   border: 2px solid #a87171;
-  padding: 15px;
+  padding: 20px;
   width: 250px; /* IMPORTANTE */
   background: #f9f9f9;
   border-radius: 10px;

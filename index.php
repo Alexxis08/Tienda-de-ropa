@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesWeb.css">
     <title>Tienda</title>
 </head>
 <body>
 <?php include_once "prendas.php" ?>
 
-<h1>Tienda de ropa: </h1>
 
-<h4>Listado de ropa.....</h4>
 
-<section class="content">
+<body>
+  <div class="layout">
+    <header>Encabezado
+
+    <h1><br>Tienda de ropa: <br></h1>
+
+    <h4>Listado de ropa.....</h4>
+    </header>
+
+    <main>
+
+    <section class="content">
 <?php foreach ($prendas as $prenda){ ?>
 <div class="ropa">
     <img class="image-ropa" src=<?= $prenda["imagen"] ?>>
@@ -25,6 +35,30 @@
 </div>
 <?php } ?>
 </section>
+    </main>
+
+    <aside>Extras</aside>
+
+    <footer class="footer">
+    <div class="footer-container">    
+      
+
+    <div class="footer-bottom">
+    <h3>MiProyecto</h3>
+    <p>Desarrollando una tienda de ropa con PHP</p>
+    <br>
+    <p>© 2026 MiProyecto. Todos los derechos reservados</p>
+    <ul>
+        <li>Gloribel Cuevas</li>
+        <li>Camila Sanchez</li>
+    </ul>
+    </div>
+</div>
+    </footer>
+  </div>
+</body>
+
+
 
 </body>
 </html>
